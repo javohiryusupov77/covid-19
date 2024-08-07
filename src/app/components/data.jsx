@@ -13,7 +13,7 @@ import {
   Legend,
   Filler,
 } from "chart.js";
-import { data, options } from "./search";
+import { Data, Options } from "./search";
 
 ChartJS.register(
   CategoryScale,

@@ -1,4 +1,4 @@
-export const data = {
+export const Data = {
   labels: ["January", "February", "March", "April", "May", "June", "July"],
   datasets: [
     {
@@ -20,7 +20,7 @@ export const data = {
   ],
 };
 
-export const options = {
+export const Options = {
   responsive: true,
   plugins: {
     legend: {
