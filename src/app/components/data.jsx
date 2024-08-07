@@ -27,7 +27,7 @@ ChartJS.register(
 );
 
 const LineChart = () => {
-  return <Line data={data} options={options} />;
+  return <Line data={Data} options={Options} />;
 };
 
 export default LineChart;
