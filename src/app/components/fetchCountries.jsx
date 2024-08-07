@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 
-function fetchCountries() {
+function FetchCountries() {
   const [countries, setCountries] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -61,4 +61,4 @@ function fetchCountries() {
   );
 }
 
-export default fetchCountries;
+export default FetchCountries;
